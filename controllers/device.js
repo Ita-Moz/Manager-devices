@@ -47,7 +47,7 @@ const addDevice = async (req, res) => {
         supplierName: req.body.txtSupplier,
     })
         .then(() => {
-            res.redirect("http://localhost:5000/DeviceManager"||"https://nodeita.herokuapp.com/DeviceManager")
+            res.redirect("/DeviceManager"||"https://nodeita.herokuapp.com/DeviceManager")
         })
         .catch((err) => {
             console.log(err)
