@@ -1,6 +1,6 @@
 # Manager-devices-Nodejs
 ## Demo:
----Thư viện---
+<b>---Thư viện---</b>
 * Express
 * Body-parser
 * Dotenv
@@ -8,7 +8,8 @@
 * Mongoose
 * Multer
 Data: MongoDB
----Chức Năng---
+
+<b>---Chức Năng---</b>
 * Tìm kiếm theo tên sản phẩm
 * Sắp xếp
 * Lọc theo loại theo giá
