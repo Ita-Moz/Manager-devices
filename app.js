@@ -27,11 +27,11 @@ app.set('view engine', 'ejs');
 app.set('views', "./views");
 
 //router
-app.use('/DeviceManager', require('./routes/device'))
+app.use('/', require('./routes/device'))
 
 app.listen(PORT, function (err) {
     if (err) console.log(err);
-    console.log(`Server listening on PORT http://localhost:${PORT}/DeviceManager`);
+    console.log(`Server listening on PORT http://localhost:${PORT}/`);
 });
 
 module.exports = app;
