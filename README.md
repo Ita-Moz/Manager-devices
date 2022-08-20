@@ -3,8 +3,8 @@
 <h1> npm i </h1>
 Install the necessary modules
 <h1>npm start</h1>
-Runs the app in the development mode.
-Open http://localhost:5000/DeviceManager to view it in your browser.
+Runs the app in the development mode.\
+Open [http://localhost:5000/DeviceManager](http://localhost:5000/DeviceManager) to view it in your browser.
 
 The page will reload when you make changes.
 You may also see any lint errors in the console.
